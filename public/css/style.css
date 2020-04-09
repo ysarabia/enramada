@@ -1,0 +1,341 @@
+/*!
+ * Author: Yamel Sarabia
+ * Creation date: 2020-04-05
+ */
+
+ /* Header */
+.top-navigation-wrapper {
+	background-image: url(../assets/images/default-top-wrapper-2.png);
+}
+.top-navigation {
+	height: 42px;
+}
+div.top-navigation.container {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 100%;
+}
+.telephone {
+	width: 15px;
+}
+.container {
+    margin: 0px auto;
+    max-width: 100%;
+}
+.top-navigation-left {
+	color: white;
+	float: left;
+	line-height: 25px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+div.top-navigation-right {
+    float: right;
+    margin-right: 10px;
+}
+div.social-wrapper {
+    float: right;
+}div.social-icon {
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.social-icon-img {
+	width: 30px;
+	margin-right: 25px;
+}
+.social-icon:hover {
+	opacity: 0.55;
+}
+.border-wrapper {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-color: #bdbdbd;
+}
+.border-wrapper-second {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-color: #7bb0ff;
+}
+div.logo-area-wrapper {
+    position: relative;
+}
+.logo-inner-img {
+	width: 100%;
+}
+div.logo-wrapper .logo-inner {
+    max-width: 36%;
+}
+div.logo-wrapper .logo-inner {
+    position: relative;
+    display: inline-block;
+}
+.logo-wrapper .logo-inner {
+    top: -43px;
+}
+div.logo-wrapper {
+    position: relative;
+    z-index: 100;
+    text-align: center;
+}
+.logo-wrapper {
+    height: 116px;
+}
+div.logo-wrapper h1 {
+    margin: 0px;
+}
+ /* Menu */
+.navbar-light .navbar-toggler  {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.57);
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+}
+.navbar-nav {
+    text-align: center;
+}
+.navbar-custom {
+	background-color: #1273a38a;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 101;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    margin-top: 159px;
+    border-color: #1373a3;
+    height: 52px;
+}
+/* Content */
+
+ /*Content Carousel*/
+ .carousel-img {
+ 	height: 520px;
+ }
+
+ /* Footer */
+
+div.footer-wrapper {
+
+}
+div.footer-wrapper {
+    overflow: hidden;
+}
+.footer-wrapper, .footer-wrapper table th {
+    color: #fffafa;
+}
+div.footer-wrapper * {
+    border-color: #c83c3c;
+}
+div.footer-inner-wrapper {
+	margin-bottom: 10px;
+    overflow: hidden;
+    background: url(images/border/footer-top-border.png) 0px 0px repeat-x;
+}
+div.footer-container {
+    margin-top: 10px;
+}
+.row {
+    /*width: 1140px;*/
+    max-width: 100%;
+    /*min-width: 767px;*/
+    margin: 0 auto;
+}
+.row .six {
+    width: 70%;
+}
+div.footer-wrapper .custom-sidebar {
+    margin-bottom: 30px;
+}
+div.footer-wrapper h3.custom-sidebar-title {
+    padding: 0px 0px 10px;
+    border-left: 0px;
+    font-weight: bold;
+    background: none;
+}
+.footer-wrapper .custom-sidebar-title, .footer-wrapper .custom-sidebar-title a {
+    color: #ffffff;
+}
+h3.custom-sidebar-title {
+    font-size: 14px;
+}
+h3.custom-sidebar-title {
+    padding: 14px 15px 12px;
+    margin-bottom: 8px;
+    position: relative;
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+div.textwidget {
+    padding-top: 5px;
+}
+.row .column, .row .columns {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.column, .columns {
+    float: left;
+    min-height: 1px;
+    padding: 0 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.mb0 {
+    margin-bottom: 0px !important;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+div.footer-inner-wrapper {
+    overflow: hidden;
+    background: url(images/border/footer-top-border.png) 0px 0px repeat-x;
+}
+div.footer-wrapper {
+    background-image: url(../assets/images/default-bottom-wrapper.png);
+}
+/*Copyright*/
+body div.copyright-outer-wrapper {
+    border-color: #242424;
+}
+div.copyright-outer-wrapper {
+    background-color: #403e3c;
+}
+div.copyright-outer-wrapper {
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+body div.copyright-wrapper {
+    border-color: #666666;
+}
+div.copyright-wrapper {
+    padding: 22px 0px;
+    font-size: 13px;
+    border-top-width: 1px;
+    border-top-style: solid;
+}	
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+div {
+    display: block;
+}
+div.copyright-left {
+    float: left;
+    line-height: 0.5;
+    margin-left: 10px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+div {
+    display: block;
+}
+div.copyright-wrapper {
+    color: #919191;
+}
+div.copyright-right {
+    float: right;
+    line-height: 0.5;
+    margin-right: 10px;
+}
+
+/*Responsive*/
+
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+	.navbar-toggle-pair {
+		background-color: #1010106e;
+	}
+	.navbar-toggle-spare {
+		background-color: #10101030;
+	}
+}
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+	.top-navigation-wrapper {
+		background-image: url(../assets/images/default-top-wrapper-600.png);
+	}
+	.navbar-toggle-pair {
+		background-color: #1010106e;
+	}
+	.navbar-toggle-spare {
+		background-color: #10101030;
+	}
+	.container {
+	    margin: 0px auto;
+	    max-width: 420px;
+	}
+	div.copyright-left, div.copyright-right {
+	    float: none;
+	    text-align: center;
+	    margin: 0px;
+	}
+	div.logo-wrapper {
+	    height: auto;
+	}
+	div.logo-wrapper .logo-inner {
+	    top: 0px;
+	    position: relative;
+	    left: auto;
+	}
+	div.logo-wrapper .logo-inner a {
+	    position: relative;
+	    left: auto;
+	    text-align: center;
+	}
+	div.top-navigation-left, div.top-navigation-right {
+	    text-align: center;
+	    float: none;
+	    margin: 0px;
+	}
+	div.social-wrapper {
+	    float: none;
+	    display: inline-block;
+	    margin-top: 5px;
+	}
+	.top-navigation {
+	    height: 78px;
+	}
+	.social-icon-img {
+		margin-right: 10px;
+	}
+	div.social-icon:last-child {
+	    margin-right: 0px;
+	}
+	.navbar-custom {
+		margin-top: 212px;
+	}
+
+	.navbar-nav {
+	    padding-left: 0px;
+	}
+	.reviews-container {
+		margin-left: -54px;
+		width: 497px;
+	}
+}
