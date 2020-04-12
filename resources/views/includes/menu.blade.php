@@ -9,6 +9,7 @@
       <a class="nav-item nav-link navbar-toggle-spare" href="#">Acerca de nosotros</a>
       <a class="nav-item nav-link navbar-toggle-pair" href="#">Menu</a>
       <a class="nav-item nav-link navbar-toggle-spare" href="#">Reservar</a>
+      <a class="nav-item nav-link navbar-toggle-spare" href="#">Galeria</a>
     </div>
   </div>
 </nav>

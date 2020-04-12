@@ -2,6 +2,10 @@
  * Author: Yamel Sarabia
  * Creation date: 2020-04-05
  */
+/*General*/
+.clear-space {
+	margin: 70px 0px;
+}
 
  /* Header */
 .top-navigation-wrapper {
@@ -91,6 +95,13 @@ div.logo-wrapper h1 {
     margin: 0px;
 }
  /* Menu */
+ .navbar-light .navbar-nav .nav-link {
+ 	color: white;
+ 	padding-left: 9.5em;
+ }
+ .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+ 	color: #bdbdbd;
+ }
 .navbar-light .navbar-toggler  {
     color: rgba(0, 0, 0, 0.5);
     border-color: rgba(255, 255, 255, 0.57);
@@ -114,11 +125,91 @@ div.logo-wrapper h1 {
     border-color: #1373a3;
     height: 52px;
 }
-/* Content */
+
+/* Sidebar*/
+.sidebar-schedule-day {
+	color: #1172a3;
+	padding: 4px 0px;
+	font-size: 19px;
+}
+.sidebar-schedule-hour {
+	color: #96a1a7;
+	padding: 8px 0px 0px 0px;
+	font-size: 15px;
+}
+.sidebar-schedule-border {
+	border-bottom: #96a1a7;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	width: 100%;
+}
+.top-sidebar-bg {
+	background-image: url(../assets/images/top-sidebar-background.jpg);
+	width: 100%;
+	height: 27px; 
+	color: #FFF;
+	padding: 4px 25px;
+	font-size: 16px;
+}
+.booking-img {
+	height: 81px;
+	margin-top: 22px;
+}
+
+ /*Content Home*/
+.home-title {
+	color: #1172a3;
+	font-size: 25px;
+	font-style: oblique;
+	text-decoration-line: underline;
+	margin-top: 20px;
+}
+.recommendation-subtitle {
+	color: #1172a3;
+	font-size: 19px;
+	padding: 14px 0px 0px 10px;
+}
+.recommendation-description {
+	color: #96a1a7;
+	font-size: 14px;
+	margin-top: 3px;
+	text-align: justify;
+	padding: 0px 10px;
+}
+.recommendation-img-top-box {
+	padding: 20px; 
+	height: 100%;
+}
+.img-shadow-box {
+	padding: 6px; 
+	position: relative;
+	box-shadow: 0px 0px 6px #bbbbbb;
+}
+.recommendation-img {
+	width: 320px; 
+	height: 240px;
+}
+.galery-img {
+	width: 228px; 
+	height: 200px;
+}
+.galery-img-box {
+	padding: 25px 5px 3px 12px; 
+	height: 100%;
+}
+.galery-img-box-margin {
+	margin: 13px;
+}
 
  /*Content Carousel*/
  .carousel-img {
  	height: 520px;
+ }
+ .carousel-caption {
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #00000047;
  }
 
  /* Footer */
@@ -138,7 +229,6 @@ div.footer-wrapper * {
 div.footer-inner-wrapper {
 	margin-bottom: 10px;
     overflow: hidden;
-    background: url(images/border/footer-top-border.png) 0px 0px repeat-x;
 }
 div.footer-container {
     margin-top: 10px;
@@ -199,10 +289,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-}
-div.footer-inner-wrapper {
-    overflow: hidden;
-    background: url(images/border/footer-top-border.png) 0px 0px repeat-x;
 }
 div.footer-wrapper {
     background-image: url(../assets/images/default-bottom-wrapper.png);
@@ -338,4 +424,11 @@ div.copyright-right {
 		margin-left: -54px;
 		width: 497px;
 	}
+
+	/*Google maps*/
+	#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
 }

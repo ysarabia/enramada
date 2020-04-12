@@ -47,5 +47,165 @@
 		</a>
 	</div>
 
-	<!-- <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Faztecaguerrerooficial%2Fvideos%2F752710128188025%2F&show_text=0&width=560" width="560" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>-->
+	<!--HOME body BEGIN-->
+	<div class="row">
+		<div class="col-sm-1">
+		</div>
+		<div class="col-sm-7">
+			<div class="row">
+				<div class="home-title">
+					Nuestras Recomendaciones
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 recommendation-img-top-box">
+				    <div class="img-shadow-box">
+						<img class="recommendation-img" src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}">
+					</div>
+					<div class="recommendation-subtitle">
+						Pescado a la talla
+					</div>
+					<div class="recommendation-description">
+						El mejor pescado a la talla, disfruta de cualquier pescado mayor a 1kg preparado con un delicioso adobo, mayonesa y cocinado con brasas de coco.
+					</div>
+				</div>
+				<div class="col-sm-6 recommendation-img-top-box">
+				    <div class="img-shadow-box">
+						<img class="recommendation-img" src="{{ ('assets/images/caldo-de-camaron-molcajete-galeria.jpg') }}">
+					</div>
+					<div class="recommendation-subtitle">
+						Caldo de camarones
+					</div>
+					<div class="recommendation-description">
+						Exquisito caldo de camarones servido en nuestro tradicional molcajete.
+					</div>
+				</div>
+			</div>
+			<div class="clear-space"></div>
+			<div class="row">
+				<div class="home-title">
+					Galeria
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-sm-4 galery-img-box">
+				    <div class="img-shadow-box">
+						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+					</div>
+				</div>
+				<div class="col-sm-4 galery-img-box">
+				    <div class="img-shadow-box">
+						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+					</div>
+				</div>
+				<div class="col-sm-4 galery-img-box">
+				    <div class="img-shadow-box">
+						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 galery-img-box">
+				    <div class="img-shadow-box">
+						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+					</div>
+				</div>
+				<div class="col-sm-4 galery-img-box">
+				    <div class="img-shadow-box">
+						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+					</div>
+				</div>
+				<div class="col-sm-4 galery-img-box">
+				    <div class="img-shadow-box">
+						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+					</div>
+				</div>
+			</div>
+			<div class="clear-space"></div>
+		</div>
+		<div class="col-sm-3">
+			<div class="clear-space"></div>
+			<div class="row">
+				<div class="top-sidebar-bg">
+					Horario
+				</div>
+				<div class="row sidebar-schedule-border">
+					<div class="col-sm-4 sidebar-schedule-day">
+						Lunes
+					</div>
+					<div class="col-sm-8 sidebar-schedule-hour">
+						10:00 am - 7:00 pm
+					</div>
+				</div>
+				<div class="row sidebar-schedule-border">
+					<div class="col-sm-4 sidebar-schedule-day">
+						Martes
+					</div>
+					<div class="col-sm-8 sidebar-schedule-hour">
+						10:00 am - 7:00 pm
+					</div>
+				</div>
+				<div class="row sidebar-schedule-border">
+					<div class="col-sm-4 sidebar-schedule-day">
+						Miercoles
+					</div>
+					<div class="col-sm-8 sidebar-schedule-hour">
+						10:00 am - 7:00 pm
+					</div>
+				</div>
+				<div class="row sidebar-schedule-border">
+					<div class="col-sm-4 sidebar-schedule-day">
+						Jueves
+					</div>
+					<div class="col-sm-8 sidebar-schedule-hour">
+						10:00 am - 7:00 pm
+					</div>
+				</div>
+				<div class="row sidebar-schedule-border">
+					<div class="col-sm-4 sidebar-schedule-day">
+						Viernes
+					</div>
+					<div class="col-sm-8 sidebar-schedule-hour">
+						10:00 am - 7:00 pm
+					</div>
+				</div>
+				<div class="row sidebar-schedule-border">
+					<div class="col-sm-4 sidebar-schedule-day">
+						Sabado
+					</div>
+					<div class="col-sm-8 sidebar-schedule-hour">
+						10:00 am - 7:00 pm
+					</div>
+				</div>
+				<div class="row sidebar-schedule-border">
+					<div class="col-sm-4 sidebar-schedule-day">
+						Domingo
+					</div>
+					<div class="col-sm-8 sidebar-schedule-hour">
+						10:00 am - 7:00 pm
+					</div>
+				</div>
+			</div>
+			<div class="clear-space"></div>
+			<div class="row">
+				<div class="top-sidebar-bg">
+					Reservar
+				</div>
+				<div class="col-sm-4">
+					<img src="{{ ('assets/images/reservar-telefono.png') }}" class="booking-img">
+				</div>
+				<div class="col-sm-8">
+					<div class="row sidebar-schedule-day">
+						(045) 7441-20-6091
+					</div>
+					<div class="row sidebar-schedule-hour">
+						No olvides realizar tu reservacion minimo 24 horas antes de tu llegada si requieres algun producto en especifico.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-1">
+		</div>
+	</div>
+	<!--HOME body END-->
 @stop
