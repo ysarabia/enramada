@@ -49,18 +49,17 @@
 
 	<!--HOME body BEGIN-->
 	<div class="row">
-		<div class="col-sm-1">
-		</div>
-		<div class="col-sm-7">
+		<div class="col-xs-1 col-sm-1 col-md-2 col-lg-1"></div>
+		<div class="col-xs-7 col-sm-7 col-md-8 col-lg-7">
 			<div class="row">
 				<div class="home-title">
 					Nuestras Recomendaciones
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-6 recommendation-img-top-box">
+				<div class="col-xs-6 col-sm-6 col-md-12 col-lg-6 recommendation-img-top-box">
 				    <div class="img-shadow-box">
-						<img class="recommendation-img" src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}">
+						<img class="gallery-img" src="{{ ('assets/images/pescado-a-la-talla-sopes-galeria.jpg') }}">
 					</div>
 					<div class="recommendation-subtitle">
 						Pescado a la talla
@@ -69,9 +68,9 @@
 						El mejor pescado a la talla, disfruta de cualquier pescado mayor a 1kg preparado con un delicioso adobo, mayonesa y cocinado con brasas de coco.
 					</div>
 				</div>
-				<div class="col-sm-6 recommendation-img-top-box">
+				<div class="col-xs-6 col-sm-6 col-md-12 col-lg-6 recommendation-img-top-box">
 				    <div class="img-shadow-box">
-						<img class="recommendation-img" src="{{ ('assets/images/caldo-de-camaron-molcajete-galeria.jpg') }}">
+						<img class="gallery-img" src="{{ ('assets/images/caldo-de-camaron-molcajete-galeria.jpg') }}">
 					</div>
 					<div class="recommendation-subtitle">
 						Caldo de camarones
@@ -88,114 +87,84 @@
 				</div>
 			</div>	
 			<div class="row">
-				<div class="col-sm-4 galery-img-box">
+				<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 galery-img-box">
 				    <div class="img-shadow-box">
-						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+						<img src="{{ ('assets/images/huachinango-fresco-galeria.jpg') }}" class="gallery-img">
 					</div>
 				</div>
-				<div class="col-sm-4 galery-img-box">
+				<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 galery-img-box">
 				    <div class="img-shadow-box">
-						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+						<img src="{{ ('assets/images/cocina-sopes-galeria.jpg') }}" class="gallery-img">
 					</div>
 				</div>
-				<div class="col-sm-4 galery-img-box">
+				<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 galery-img-box">
 				    <div class="img-shadow-box">
-						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+						<img src="{{ ('assets/images/atardecer-en-el-mar-galeria.jpg') }}" class="gallery-img">
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4 galery-img-box">
+				<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 galery-img-box">
 				    <div class="img-shadow-box">
-						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+						<img src="{{ ('assets/images/enramada-laguna-galeria.jpg') }}" class="gallery-img">
 					</div>
 				</div>
-				<div class="col-sm-4 galery-img-box">
+				<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 galery-img-box">
 				    <div class="img-shadow-box">
-						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+						<img src="{{ ('assets/images/luna-enorme-galeria.jpg') }}" class="gallery-img">
 					</div>
 				</div>
-				<div class="col-sm-4 galery-img-box">
+				<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 galery-img-box">
 				    <div class="img-shadow-box">
-						<img src="{{ ('assets/images/pescado-a-la-talla-sopes.jpg') }}" class="galery-img">
+						<img src="{{ ('assets/images/tiritas-de-pescado-galeria.jpg') }}" class="gallery-img">
 					</div>
 				</div>
 			</div>
 			<div class="clear-space"></div>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-xs-3 col-sm-3 col-md-8 col-lg-3 custom-offset-md-2">
 			<div class="clear-space"></div>
 			<div class="row">
-				<div class="top-sidebar-bg">
+				<div class="top-sidebar-bg img-shadow-box">
 					Horario
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-sm-4 sidebar-schedule-day">
-						Lunes
-					</div>
-					<div class="col-sm-8 sidebar-schedule-hour">
-						10:00 am - 7:00 pm
-					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Lunes</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-sm-4 sidebar-schedule-day">
-						Martes
-					</div>
-					<div class="col-sm-8 sidebar-schedule-hour">
-						10:00 am - 7:00 pm
-					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Martes</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-sm-4 sidebar-schedule-day">
-						Miercoles
-					</div>
-					<div class="col-sm-8 sidebar-schedule-hour">
-						10:00 am - 7:00 pm
-					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Miercoles</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-sm-4 sidebar-schedule-day">
-						Jueves
-					</div>
-					<div class="col-sm-8 sidebar-schedule-hour">
-						10:00 am - 7:00 pm
-					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Jueves</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-sm-4 sidebar-schedule-day">
-						Viernes
-					</div>
-					<div class="col-sm-8 sidebar-schedule-hour">
-						10:00 am - 7:00 pm
-					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Viernes</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-sm-4 sidebar-schedule-day">
-						Sabado
-					</div>
-					<div class="col-sm-8 sidebar-schedule-hour">
-						10:00 am - 7:00 pm
-					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Sabado</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-sm-4 sidebar-schedule-day">
-						Domingo
-					</div>
-					<div class="col-sm-8 sidebar-schedule-hour">
-						10:00 am - 7:00 pm
-					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Domingo</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
 				</div>
 			</div>
 			<div class="clear-space"></div>
 			<div class="row">
-				<div class="top-sidebar-bg">
+				<div class="top-sidebar-bg img-shadow-box">
 					Reservar
 				</div>
-				<div class="col-sm-4">
+				<div class="col-xs-4 col-sm-4 custom-offset-md-3 col-md-2 col-lg-4">
 					<img src="{{ ('assets/images/reservar-telefono.png') }}" class="booking-img">
 				</div>
-				<div class="col-sm-8">
-					<div class="row sidebar-schedule-day">
+				<div class="col-xs-8 col-sm-8 col-md-6 col-lg-8">
+					<div class="row top-booking-phone">
 						(045) 7441-20-6091
 					</div>
 					<div class="row sidebar-schedule-hour">
@@ -204,8 +173,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-1">
-		</div>
+		<div class="col-xs-1 col-sm-1 col-md-2 col-lg-1"></div>
 	</div>
 	<!--HOME body END-->
+	<div class="clear-space"></div>
 @stop

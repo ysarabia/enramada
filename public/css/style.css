@@ -144,7 +144,7 @@ div.logo-wrapper h1 {
 	width: 100%;
 }
 .top-sidebar-bg {
-	background-image: url(../assets/images/top-sidebar-background.jpg);
+	background-image: url(../assets/images/top-sidebar-background-large.jpg);
 	width: 100%;
 	height: 27px; 
 	color: #FFF;
@@ -154,6 +154,11 @@ div.logo-wrapper h1 {
 .booking-img {
 	height: 81px;
 	margin-top: 22px;
+}
+.top-booking-phone {
+	padding-top: 8%;
+	color: #1172a3;
+	font-size: 19px;
 }
 
  /*Content Home*/
@@ -185,13 +190,9 @@ div.logo-wrapper h1 {
 	position: relative;
 	box-shadow: 0px 0px 6px #bbbbbb;
 }
-.recommendation-img {
-	width: 320px; 
-	height: 240px;
-}
-.galery-img {
-	width: 228px; 
-	height: 200px;
+.gallery-img {
+	width: 100%; 
+	height: 100%;
 }
 .galery-img-box {
 	padding: 25px 5px 3px 12px; 
@@ -349,6 +350,13 @@ div.copyright-right {
     margin-right: 10px;
 }
 
+/*Google maps*/
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+  }
+
 /*Responsive*/
 
 /* On screens that are 992px or less */
@@ -358,6 +366,15 @@ div.copyright-right {
 	}
 	.navbar-toggle-spare {
 		background-color: #10101030;
+	}
+	.custom-offset-md-2 {
+		margin-left: 17%;
+	}
+	.sidebar-schedule-day {
+    	margin-left: 19%;
+	}
+	.custom-offset-md-3 {
+		margin-left: 19%;
 	}
 }
 
@@ -424,11 +441,15 @@ div.copyright-right {
 		margin-left: -54px;
 		width: 497px;
 	}
-
-	/*Google maps*/
-	#map {
-        width: 100%;
-        height: 400px;
-        background-color: grey;
-      }
+	div.copyright-left, div.copyright-right {
+	    float: none;
+	    text-align: center;
+	    margin: 0px;
+	}
+	div.copyright-left, div.copyright-right {
+		line-height: 1.9;
+	}
+	.custom-offset-md-2 {
+		margin-left: 1%;
+	}
 }
