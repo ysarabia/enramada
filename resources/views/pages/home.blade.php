@@ -86,6 +86,20 @@
 					Galeria
 				</div>
 			</div>	
+			<!-- Modal Gallery-->
+			<div class="modal fade" id="display-gallery" tabindex="-1" role="dialog" aria-labelledby="display-gallery" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body"></div>
+					</div>
+				</div>
+			</div>
+			<!-- Gallery -->
 			<div class="row">
 				<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 galery-img-box">
 				    <div class="img-shadow-box">
