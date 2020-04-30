@@ -3,7 +3,7 @@
 		<div class="top-navigation container">
 			<div class="top-navigation-left">
 				<img src={{ ('assets/images/telephone-icon-26x26.png') }} alt="telephone" class="telephone">
-				Reserva ahora : (045) 7441-20-6091
+				@lang('messages.book_now') : (045) 7441-20-6091
 			</div>					
 			<div class="top-navigation-right">
 				<!-- Get Social Icons -->

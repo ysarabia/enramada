@@ -38,7 +38,7 @@
 	<div class="copyright-wrapper">
 		<div class="container copyright-container">
 			<div class="copyright-left">
-				Reserva ahora : (045) 7441-20-6091					
+				@lang('messages.book_now') : (045) 7441-20-6091					
 			</div> 
 			<div class="copyright-right">
 				© Copyright 2020 Yamel Sarabia

@@ -11,39 +11,39 @@
 			<div class="carousel-item active">
 				<img class="d-block w-100 carousel-img" src={{ ('assets/images/amanecer-slide.jpg') }} alt="First slide">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Amanecer</h5>
-					<p>Trae tu casita de campaña y disfruta de un hermoso amanecer</p>
+					<h5>@lang('messages.carousel.0.title')</h5>
+					<p>@lang('messages.carousel.0.subtitle')</p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100 carousel-img" src={{ ('assets/images/amanecer-rio.jpg') }} alt="Third slide">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Atardecer</h5>
-					<p>El mejor atardecer desde la laguna</p>
+					<h5>@lang('messages.carousel.1.title')</h5>
+					<p>@lang('messages.carousel.1.subtitle')</p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100 carousel-img" src={{ ('assets/images/caldo-de-camaron-molcajete-slide.jpg') }} alt="Third slide">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Caldo de camarones</h5>
-					<p>Del mar a su paladar y de la ola a la cacerola, servidos en molcajete</p>
+					<h5>@lang('messages.carousel.2.title')</h5>
+					<p>@lang('messages.carousel.2.subtitle')</p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100 carousel-img" src={{ ('assets/images/fuego-comal-slide.jpg') }} alt="Third slide">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Comal de barro y leña</h5>
-					<p>Todos nuestros platillos son cocinados con leña, lo que les da un sabor único</p>
+					<h5>@lang('messages.carousel.3.title')</h5>
+					<p>@lang('messages.carousel.3.subtitle')</p>
 				</div>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
+			<span class="sr-only">@lang('messages.common.previous')</span>
 		</a>
 		<a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
+			<span class="sr-only">@lang('messages.common.next')</span>
 		</a>
 	</div>
 
@@ -53,7 +53,7 @@
 		<div class="col-xs-7 col-sm-7 col-md-8 col-lg-7">
 			<div class="row">
 				<div class="home-title">
-					Nuestras Recomendaciones
+					@lang('messages.reccomendation.title')
 				</div>
 			</div>
 			<div class="row">
@@ -62,10 +62,10 @@
 						<img class="gallery-img" src="{{ ('assets/images/pescado-a-la-talla-sopes-galeria.jpg') }}">
 					</div>
 					<div class="recommendation-subtitle">
-						Pescado a la talla
+						@lang('messages.reccomendation.0.subtitle')
 					</div>
 					<div class="recommendation-description">
-						El mejor pescado a la talla, disfruta de cualquier pescado mayor a 1kg preparado con un delicioso adobo, mayonesa y cocinado con brasas de coco.
+						@lang('messages.reccomendation.0.description')
 					</div>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-12 col-lg-6 recommendation-img-top-box">
@@ -73,17 +73,17 @@
 						<img class="gallery-img" src="{{ ('assets/images/caldo-de-camaron-molcajete-galeria.jpg') }}">
 					</div>
 					<div class="recommendation-subtitle">
-						Caldo de camarones
+						@lang('messages.reccomendation.1.subtitle')
 					</div>
 					<div class="recommendation-description">
-						Exquisito caldo de camarones servido en nuestro tradicional molcajete.
+						@lang('messages.reccomendation.1.description')
 					</div>
 				</div>
 			</div>
 			<div class="clear-space"></div>
 			<div class="row">
 				<div class="home-title">
-					Galeria
+						@lang('messages.gallery.title')
 				</div>
 			</div>	
 			<!-- Modal Gallery-->
@@ -138,41 +138,41 @@
 			<div class="clear-space"></div>
 			<div class="row">
 				<div class="top-sidebar-bg img-shadow-box">
-					Horario
+					@lang('messages.schedule.title')
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Lunes</div>
-					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">@lang('messages.days.monday')</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">@lang('messages.schedule.hours')</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Martes</div>
-					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">@lang('messages.days.tuesday')</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">@lang('messages.schedule.hours')</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Miercoles</div>
-					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">@lang('messages.days.wednesday')</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">@lang('messages.schedule.hours')</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Jueves</div>
-					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">@lang('messages.days.thursday')</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">@lang('messages.schedule.hours')</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Viernes</div>
-					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">@lang('messages.days.friday')</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">@lang('messages.schedule.hours')</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Sabado</div>
-					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">@lang('messages.days.saturday')</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">@lang('mesages.schedule.hours')</div>
 				</div>
 				<div class="row sidebar-schedule-border">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">Domingo</div>
-					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">10:00 am - 7:00 pm</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidebar-schedule-day">@lang('messages.days.sunday')</div>
+					<div class="col-xs-8 col-sm-8 col-md-4 col-lg-8 sidebar-schedule-hour">@lang('messages.schedule.hours')</div>
 				</div>
 			</div>
 			<div class="clear-space"></div>
 			<div class="row">
 				<div class="top-sidebar-bg img-shadow-box">
-					Reservar
+					@lang('messages.book_now')
 				</div>
 				<div class="col-xs-4 col-sm-4 custom-offset-md-3 col-md-2 col-lg-4">
 					<img src="{{ ('assets/images/reservar-telefono.png') }}" class="booking-img">
@@ -182,7 +182,7 @@
 						(045) 7441-20-6091
 					</div>
 					<div class="row sidebar-schedule-hour">
-						No olvides realizar tu reservacion minimo 24 horas antes de tu llegada si requieres algun producto en especifico.
+						@lang('messages.booking_description')
 					</div>
 				</div>
 			</div>

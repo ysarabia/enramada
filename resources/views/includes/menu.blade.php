@@ -5,11 +5,11 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link navbar-toggle-pair" href="#">Home</a>
-      <a class="nav-item nav-link navbar-toggle-spare" href="#">Acerca de nosotros</a>
-      <a class="nav-item nav-link navbar-toggle-pair" href="#">Menu</a>
-      <a class="nav-item nav-link navbar-toggle-spare" href="#">Reservar</a>
-      <a class="nav-item nav-link navbar-toggle-spare" href="#">Galeria</a>
+      <a class="nav-item nav-link navbar-toggle-pair" href="#">@lang('messages.menu.home')</a>
+      <a class="nav-item nav-link navbar-toggle-spare" href="#">@lang('messages.menu.about_us')</a>
+      <a class="nav-item nav-link navbar-toggle-pair" href="#">@lang('messages.menu.menu')</a>
+      <a class="nav-item nav-link navbar-toggle-spare" href="#">@lang('messages.menu.booking')</a>
+      <a class="nav-item nav-link navbar-toggle-spare" href="#">@lang('messages.menu.gallery')</a>
     </div>
   </div>
 </nav>
