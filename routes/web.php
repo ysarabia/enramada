@@ -21,6 +21,9 @@ Route::get('/about', function () {
     return view('pages.contact');
 });
 
+Route::get('lang/{locale}', 'LocalizationController@index');
+//Route::get('/{lang}', 'HomeController@index');
+
 
 Auth::routes();
 

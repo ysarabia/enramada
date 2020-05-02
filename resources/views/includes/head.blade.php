@@ -1,5 +1,5 @@
 <meta charset="utf-8">
 <meta name="description" content="deliciosa comida">
 <meta name="enramada" content="blade">
-<title>"El Canalla"</title>
+<title>{{ config('app.name', 'Laravel') }}</title>
 <!-- load bootstrap from a cdn -->
