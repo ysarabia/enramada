@@ -44,5 +44,27 @@
 				© Copyright 2020 Yamel Sarabia
 			</div> 
 		</div>
+		<div class="top-navigation-right">
+				<!-- Get Social Icons -->
+				<div id="gdl-social-icon" class="social-wrapper">
+					<div class="social-icon-wrapper">
+						<div class="social-icon">
+							<a target="_blank" href="https://www.facebook.com/todoAlaCanalla">
+								<img class="social-icon-img" src={{ ('assets/images/facebook-icon.png') }} alt="facebook">
+							</a>
+						</div>	
+						<div class="social-icon">
+							<a target="_blank" href="https://www.instagram.com/enramada.canalla">
+								<img class="social-icon-img" src={{ ('assets/images/instagram-icon.png') }} alt="instagram"">
+							</a>
+						</div>	
+						<div class="social-icon">
+							<a target="_blank" href="https://api.whatsapp.com/send?phone=+525535194345&abid=+525535194345">
+								<img class="social-icon-img" src={{ ('assets/images/whatsapp-icon.png') }} alt="whatsapp"">
+							</a>
+						</div>					
+					</div> <!-- social icon wrapper -->
+				</div> <!-- social wrapper -->	
+			</div> <!-- top navigation right -->
 	</div>
 </div>

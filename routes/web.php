@@ -14,8 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
+	//App::setLocale('en');
+
     return view('pages.home');
 });
+
+
 
 Route::get('/about', function () {
     return view('pages.contact');
