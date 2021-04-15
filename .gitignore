@@ -11,3 +11,7 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 composer.lock
+# OS generated files #
+######################
+.DS_Store
+storage/.DS_Store
